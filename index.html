@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
+      crossorigin="anonymous"
+    />
+    <script src="https://code.iconify.design/2/2.0.3/iconify.min.js"></script>
+    <link rel="stylesheet" href="styles/docSlider.css" />
+    <link rel="stylesheet" href="styles/index.css" />
+    <title>Frozen Forest</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg fixed-top">
+      <div class="container align-items-end">
+        <a class="navbar-brand" href="#homePage">
+          <img src="images/logo.svg" alt="" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-lg-auto me-xl-0 me-lg-auto mb-2 mb-lg-0">
+            <li class="nav-item me-lg-2">
+              <a class="nav-link active" href="#homePage">Anasayfa</a>
+            </li>
+            <li class="nav-item mx-lg-2">
+              <a class="nav-link" href="#aboutPage">Biz Kimiz?</a>
+            </li>
+            <li class="nav-item mx-lg-2">
+              <a class="nav-link" href="#investorsPage">Yatırımcılar</a>
+            </li>
+            <li class="nav-item mx-lg-2">
+              <a class="nav-link" href="#projectsPage">Projeler</a>
+            </li>
+            <li class="nav-item ms-lg-2">
+              <a class="nav-link" href="#contactPage">İletişim</a>
+            </li>
+          </ul>
+
+          <div class="d-flex forms">
+            <button
+              class="search-modal-btn"
+              type="submit"
+              data-bs-toggle="modal"
+              data-bs-target="#exampleModal"
+            >
+              <span
+                class="iconify"
+                data-icon="akar-icons:search"
+                data-width="24"
+                data-height="24"
+              ></span>
+            </button>
+            <div class="dropdown">
+              <button class="btn btn-primary-outline dropdown-toggle text-white" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                EN
+              </button>
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                <li><a class="dropdown-item" href="/tr.html">TR</a></li>
+                <li><a class="dropdown-item" href="/">EN</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div
+      class="modal fade"
+      id="exampleModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered">
+        <button
+          type="button"
+          class="btn-close btn-close-white"
+          data-bs-dismiss="modal"
+          aria-label="Close"
+        ></button>
+        <div class="modal-content shadow-lg">
+          <div class="modal-body">
+            <form action="" class="search-box">
+              <input class="search-input" type="search" placeholder="Search" aria-label="Search" />
+              <button class="search-btn" type="submit">
+                <span
+                  class="iconify"
+                  data-icon="akar-icons:search"
+                  data-width="24"
+                  data-height="24"
+                ></span>
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="docSlider">
+      <section id="homePage">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6">
+              <h1 class="home-title">FrozenForest</h1>
+              <p class="home-desc pageDesc">
+                SENİ SEVİYORUM HASRET
+              </p>
+              <a href="#" class="home-btn">
+                <span class="home-btn-text">Pazar Yeri</span>
+                <div class="icon-box">
+                  <span class="iconify" data-icon="fa-solid:chevron-right"></span>
+                </div>
+              </a>
+            </div>
+            <div class="col-lg-6 home-images">
+              <div class="imgBgBox"></div>
+              <img class="imgHuman" src="images/human.png" alt="" />
+              <img class="imgBox" src="images/box.svg" alt="" />
+            </div>
+          </div>
+          <a class="scrollBtn" href="#aboutPage">
+            <span class="iconify" data-icon="akar-icons:chevron-down"></span>
+          </a>
+        </div>
+      </section>
+      <section class="about" id="aboutPage">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6">
+              <h1 class="about-title pageTitle">Ne Yapıyoruz?</h1>
+              <p class="about-desc pageDesc">
+              Frozen Forest, Unreal Engine 5 oyun motoru ve sanal gerçeklik teknolojisinden yararlanarak endüstri 4.0 dikeyinde müşterilerine özel simülasyon ve interaktif deneyimler üreten bir bilişim girişimidir.
+              </p>
+              <h1 class="about-quot">'Frozen Forest'</h1>
+            </div>
+            <div class="col-lg-6">
+              <div class="about-gallery">
+                <img src="https://source.unsplash.com/random" class="about-gallery-item" alt="" />
+                <img
+                  src="https://source.unsplash.com/user/erondu/1600x900"
+                  class="about-gallery-item"
+                  alt=""
+                />
+                <img src="https://source.unsplash.com/daily" class="about-gallery-item" alt="" />
+                <img
+                  src="https://source.unsplash.com/collection/190727/1600x900"
+                  class="about-gallery-item"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <a class="scrollBtn" href="#investorsPage">
+          <span class="iconify" data-icon="akar-icons:chevron-down"></span>
+        </a>
+      </section>
+      <section class="investors" id="investorsPage">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6">
+              <h1 class="pageTitle">Yatırımcılar</h1>
+              <p class="pageDesc my-4">
+                Projelerimize ait sunum dosyaları ve pitching sayfalarına aşağıdan ulaşabilirsiniz.
+              </p>
+              <div class="dropdown">
+              <button  class="investors-btn dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                <span class="investors-btn-text">Pazar Yeri Seçimi</span>
+                <div class="icon-box">
+                  <span class="iconify" data-icon="fa-solid:chevron-down"></span>
+                </div>
+              </button>
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                <li><a class="dropdown-item" href="https://www.google.com" target="_blank">Plug and Play</a></li>
+                <li><a class="dropdown-item" href="https://www.google.com" target="_blank">Product Hunt</a></li>
+                <li><a class="dropdown-item" href="https://www.google.com" target="_blank">LinkedIN</a></li>
+                <li><a class="dropdown-item" href="https://www.linkedin.com/company/ffreality/" target="_blank">Sunumlar</a></li>
+              </ul>
+              </div>
+            </div>
+            <div class="col-lg-6 investors-images">
+              <div class="imgBgBox"></div>
+              <img class="imgHuman" src="images/girl.png" alt="" />
+              <img class="imgBox" src="images/box.svg" alt="" />
+            </div>
+          </div>
+          <a class="scrollBtn" href="#projectsPage">
+            <span class="iconify" data-icon="akar-icons:chevron-down"></span>
+          </a>
+        </div>
+      </section>
+      <section class="projects" id="projectsPage">
+        <div class="container">
+          <h1 class="pageTitle">Projelerimiz</h1>
+          <div class="row g-0">
+            <div class="col-md-6">
+              <div class="projects-card first-card">
+                <h1>KalopsiaXR</h1>
+                <p>Gerçeklik teknolojileri için KalopsiaXR web sitesini ziyaret edin</p>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="projects-card last-card">
+                <img src="images/radlof.svg" alt="" />
+                <p>Web projelerimiz için Radlof web sitesini ziyaret edin</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <a class="scrollBtn" href="#contactPage">
+          <span class="iconify" data-icon="akar-icons:chevron-down"></span>
+        </a>
+      </section>
+      <section class="contact" id="contactPage">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6">
+              <h1 class="pageTitle">İletişim</h1>
+              <p class="pageDesc mt-4">
+                Frozen Forest ile ilgili tüm sorularınızı ve görüşme taleplerinizi formumuzu
+                doldurarak iletebilirsiniz.
+              </p>
+            </div>
+            <div class="col-lg-6 pb-4">
+              <form action="" class="contact-form">
+                <div class="mb-3">
+                  <input type="text" class="form-control" placeholder="Ad Soyad" />
+                </div>
+                <div class="mb-3">
+                  <input type="email" class="form-control" placeholder="Email" />
+                </div>
+                <div class="mb-3">
+                  <textarea class="form-control" name="" id="" placeholder="Mesaj"></textarea>
+                </div>
+                <button type="submit" class="btn contact-btn">Gönder</button>
+              </form>
+            </div>
+            <div class="col-12 text-light float-start">
+              <div><small><small><center>Copyright &copy; 2021 Frozen Forest. All rights reserved.</center></small></small></div>
+              <div class="mt-4"><center><img src="images/radlof.svg" class="img-fluid" style="height: 45px;"></center></div>
+            </div>
+          </div>
+          </div>
+          
+        </div>
+        
+      </section>
+      
+    </div>
+    <script src="js/docSlider.min.js"></script>
+    <script>
+      let navLink = document.querySelectorAll(".nav-link");
+      navLink.forEach((key) => {
+        key.addEventListener("click", () => {
+          navLink.forEach((key) => {
+            key.classList.remove("active");
+          });
+          key.classList.add("active");
+        });
+      });
+
+      docSlider.init({
+        beforeChange: function (index, toIndex, toPage) {
+          console.log("current index is " + toPage);
+          switch (toPage) {
+            case 0:
+              navLink.forEach((key) => {
+                key.classList.remove("active");
+              });
+              navLink[0].classList.add("active");
+              break;
+            case 1:
+              navLink.forEach((key) => {
+                key.classList.remove("active");
+              });
+              navLink[1].classList.add("active");
+              break;
+            case 2:
+              navLink.forEach((key) => {
+                key.classList.remove("active");
+              });
+              navLink[2].classList.add("active");
+              break;
+            case 3:
+              navLink.forEach((key) => {
+                key.classList.remove("active");
+              });
+              navLink[3].classList.add("active");
+              break;
+            case 4:
+              navLink.forEach((key) => {
+                key.classList.remove("active");
+              });
+              navLink[4].classList.add("active");
+              break;
+            default:
+              break;
+          }
+        },
+        pager: false,
+      });
+    </script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
